@@ -1,0 +1,42 @@
+@font-face {
+    font-family: KareliaTrial;
+    src: url("fonts/KareliaTrial-Medium.otf") format("opentype");
+}
+
+@font-face{
+    font-family: MabryPro;
+    src: url("fonts/Mabry Pro Black.ttf")
+}
+body{
+    background-color: #212121;
+}
+
+.register-button.btn{
+    display: block;
+    width: 100%;
+    background-color:  #45D56C;
+    font-family: KareliaTrial;
+    font-size: 1.5rem;
+}
+
+.container{
+    background-color: #171E19;
+}
+
+
+.card{
+    background-color: #171E19;
+    border-radius: 0;
+    border: 1px solid #171E19;
+}
+
+.card{
+    color: white;
+    font-family: KareliaTrial;
+    font-size: 1.5rem;
+}
+
+.card-title{
+    font-family: MabryPro;
+    font-size: 2rem;
+}
