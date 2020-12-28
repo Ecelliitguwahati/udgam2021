@@ -1,0 +1,74 @@
+
+
+body {
+  background-color:#121212;
+  color: #FFFFFF;
+}
+
+.row {
+	padding: 5%;
+}
+#post{
+	font-family: Ramona;
+font-style: normal;
+font-weight: bold;
+font-size: 100%;
+line-height: 120%;
+letter-spacing: 0.04em;
+color: #2DF771;
+}
+
+#name{
+	font-family: KareliaTrial;
+font-style: normal;
+font-weight: bold;
+font-size: 180%;
+line-height: 42px;
+color:#FFFFFF;
+}
+#line{
+	color:#FFFFFF;
+}
+
+.top{
+	padding-left: 3%;
+}
+#box{
+	width: 120%;
+height: 120%;
+background: #C4C4C4;
+}
+
+
+#text{
+	padding-left: 1.5%;
+	padding-right: 10%;
+}
+#head{
+	font-family: Mabry Pro;
+font-style: normal;
+font-weight: 900;
+font-size: 64px;
+line-height: 64px;
+color: #FFFFFF;
+}
+	
+#heading1{
+	font-family: KareliaTrial;
+font-style: normal;
+font-weight: bold;
+
+line-height: 100%;
+color: #FFFFFF;
+}
+
+#content{
+	font-family: KareliaTrial;
+font-style: normal;
+font-weight: 200;
+color: rgba(255, 255, 255, 0.87);
+font-size: 20px;
+line-height: 28px;
+}
+
+
