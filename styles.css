@@ -3,40 +3,137 @@
     src: url("fonts/KareliaTrial-Medium.otf") format("opentype");
 }
 
-@font-face{
+@font-face {
     font-family: MabryPro;
     src: url("fonts/Mabry Pro Black.ttf")
 }
-body{
+
+body {
+    background-color: #212121;
+}
+/*==========================*/
+/* NAVBAR */
+/*==========================*/
+.navbar.fixed-top.scrolled {
     background-color: #212121;
 }
 
-.register-button.btn{
+.nav-link.navigation {
+    font-family: MabryPro;
+    color: white;
+}
+/*==========================*/
+/* HEADER */
+/*==========================*/
+.header {
+    position: relative;
+    width: 150vw;
+    background-repeat: no-repeat;
+}
+
+.header-text {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.main-header-text {}
+
+.header-heading {
+    font-family: MabryPro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4.1vw;
+    line-height: 107%;
+    color: #4AE675;
+}
+
+#header-heading-highlight {
+    background: #212121;
+}
+
+.header-subscript {
+    font-family: KareliaTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25vw;
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header-btn {
+    color: #121212;
+    background: #4AE675;
+    margin: 2rem;
+    width: 17vw;
+    font-size: 1.4vw;
+    text-align: center;
+    border-radius: 13.8vw;
+    font-family: KareliaTrial;
+}
+
+.register-button.btn {
     display: block;
     width: 100%;
-    background-color:  #45D56C;
+    background-color: #45D56C;
     font-family: KareliaTrial;
     font-size: 1.5rem;
 }
 
-.container{
-    background-color: #171E19;
+.date-header {
+    font-family: KareliaTrial;
+    font-size: 2.8vw;
+    color: #212121;
 }
 
+.dates {
+    transform: rotate(-7.93deg);
+    font-size: 2.8vw;
+    top: 15vw;
+}
 
-.card{
-    background-color: #171E19;
+.dates-highlight {
+    background: #4AE675;
+    font-size: 2.8vw;
+}
+
+.month {
+    transform: rotate(3.81deg);
+    top: 17vw;
+    font-size: 2.8vw;
+    margin-top: 1.5vw;
+}
+
+.month-highlight {
+    background: #4AE675;
+    font-size: 2.8vw;
+}
+/*==========================*/
+/* INTRO */
+/*==========================*/
+
+.first-thing
+
+/*==========================*/
+/* LISTS OF EVENTS */
+/*==========================*/
+.container-md.events-container {
+    /* background-color: #171E19; */
+}
+
+.card {
+    background-color: #212121;
     border-radius: 0;
-    border: 1px solid #171E19;
+    border: 1px solid #212121;
 }
 
-.card{
+.card {
     color: white;
     font-family: KareliaTrial;
     font-size: 1.5rem;
 }
 
-.card-title{
+.card-title {
     font-family: MabryPro;
     font-size: 2rem;
 }
