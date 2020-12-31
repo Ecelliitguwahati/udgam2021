@@ -3,40 +3,478 @@
     src: url("fonts/KareliaTrial-Medium.otf") format("opentype");
 }
 
-@font-face{
+@font-face {
     font-family: MabryPro;
     src: url("fonts/Mabry Pro Black.ttf")
 }
-body{
+
+body {
     background-color: #212121;
 }
 
-.register-button.btn{
+/*==========================*/
+/* NAVBAR */
+/*==========================*/
+.navbar.fixed-top.scrolled {
+    background-color: #212121;
+}
+
+.nav-link.navigation {
+    font-family: MabryPro;
+    color: white;
+}
+
+/*==========================*/
+/* HEADER */
+/*==========================*/
+.header {
+    position: relative;
+    width: 150vw;
+    background-repeat: no-repeat;
+}
+
+.header-text {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.main-header-text {}
+
+.header-heading {
+    font-family: MabryPro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4.1vw;
+    line-height: 107%;
+    color: #4AE675;
+}
+
+#header-heading-highlight {
+    background: #212121;
+}
+
+.header-subscript {
+    font-family: KareliaTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25vw;
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header-btn {
+    color: #121212;
+    background: #4AE675;
+    margin: 2rem;
+    width: 17vw;
+    font-size: 1.4vw;
+    text-align: center;
+    border-radius: 13.8vw;
+    font-family: KareliaTrial;
+}
+
+.register-button.btn {
     display: block;
     width: 100%;
-    background-color:  #45D56C;
+    background-color: #45D56C;
     font-family: KareliaTrial;
     font-size: 1.5rem;
 }
 
-.container{
-    background-color: #171E19;
+.date-header {
+    font-family: KareliaTrial;
+    font-size: 2.8vw;
+    color: #212121;
 }
 
+.dates {
+    transform: rotate(-7.93deg);
+    font-size: 2.8vw;
+    top: 15vw;
+}
 
-.card{
-    background-color: #171E19;
+.dates-highlight {
+    background: #4AE675;
+    font-size: 2.8vw;
+}
+
+.month {
+    transform: rotate(3.81deg);
+    top: 17vw;
+    font-size: 2.8vw;
+    margin-top: 1.5vw;
+}
+
+.month-highlight {
+    background: #4AE675;
+    font-size: 2.8vw;
+}
+
+/*==========================*/
+/* INTRO */
+/*==========================*/
+.udgam-intro-content {
+    margin-top: 10vw
+}
+
+.macbook {
+    margin-top: 10vw
+}
+
+.first-thing {
+    font-family: KareliaTrial;
+    color: #4AE675;
+    font-size: 1rem;
+    line-height: 100%;
+    font-weight: lighter;
+}
+
+.udgam-heading {
+    font-family: MabryPro;
+    font-weight: 700;
+    font-size: 4.5rem;
+    line-height: 100%;
+    color: white;
+}
+
+.udgam-intro {
+    font-family: KareliaTrial;
+    font-size: 1.5rem;
+    color: white;
+    line-height: 138%;
+}
+
+/*==========================*/
+/* LISTS OF EVENTS */
+/*==========================*/
+.speaker-row {
+    padding: 5%;
+}
+
+.post {
+    font-family: Ramona;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.04em;
+    color: #2DF771;
+}
+
+#name {
+    font-family: KareliaTrial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 180%;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+#line {
+    color: #FFFFFF;
+}
+
+.top {
+    padding-left: 3%;
+}
+
+/*==========================*/
+/* VIRTUAL UDGAM */
+/*==========================*/
+#box {
+    width: 120%;
+    height: 120%;
+    background: #212121;
+}
+
+/* #virtual-text {
+    padding-left: 1.5%;
+    padding-right: 10%;
+} */
+#head {
+    font-family: MabryPro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 64px;
+    color: #FFFFFF;
+    z-index: 0;
+    margin-top: -40%;
+}
+
+#heading1 {
+    font-family: KareliaTrial;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+#past-speaker-text {
+    font-family: KareliaTrial;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 100%;
+    color: white;
+}
+
+#content {
+    font-family: KareliaTrial;
+    font-style: normal;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.87);
+    font-size: 20px;
+    line-height: 28px;
+    martgin-top: 10%;
+}
+
+#underlined-content-virtual-udgam {
+    font-family: KareliaTrial;
+    font-size: 3rem;
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: 120%;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+#blue {
+    background-color: #0030FF;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:
+}
+
+#blue_highlight {
+    /* margin-top: -10%; */
+    z-index: -1;
+}
+
+/*==========================*/
+/* LISTS OF EVENTS */
+/*==========================*/
+.events-container {
+    /* background-color: #171E19; */
+    padding: 5%;
+}
+
+.card {
+    background-color: #212121;
     border-radius: 0;
-    border: 1px solid #171E19;
+    border: 1px solid #212121;
 }
 
-.card{
+.card {
     color: white;
     font-family: KareliaTrial;
     font-size: 1.5rem;
 }
 
-.card-title{
+.card-title {
     font-family: MabryPro;
     font-size: 2rem;
+}
+
+/*==========================*/
+/* WHY UDGAM */
+/*==========================*/
+.why-udgam {
+    background: linear-gradient(158.18deg, #6A11CB 12.25%, #2575FC 83.61%);
+    width: 100vw;
+    height: auto;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.why-udgam-heading {
+    font-family: MabryPro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 105%;
+    letter-spacing: 0.04em;
+    /* color: white; */
+    -webkit-text-stroke-width: 0.2vw;
+    -webkit-text-stroke-color: white;
+    -webkit-text-fill-color: transparent;
+    font-size: 6.5rem;
+}
+
+.why-udgam-para {
+    /* width: 37.6vw; */
+    font-family: KareliaTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    /* or 140% */
+    color: #FFFFFF;
+}
+
+/*==========================*/
+/* COUNTDOWN */
+/*==========================*/
+#white-background {
+    background-color: white;
+}
+
+#text {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.img-countdown {
+    margin-top: -9%;
+}
+
+.num {
+    font-family: KareliaTrial;
+    -webkit-text-stroke-width: 0.14vw;
+    -webkit-text-stroke-color: white;
+    -webkit-text-fill-color: transparent;
+    font-size: 6.5rem;
+}
+
+.sup {
+    font-family: MabryPro;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.txt {
+    font-size: 1.5rem;
+    color: white;
+}
+
+@media(max-width: 1100px) {
+    #text {
+        width: 70%;
+    }
+}
+
+@media(max-width: 786px) {
+    #text {
+        width: 60%;
+    }
+
+    .num-md {
+        font-size: 4rem;
+    }
+
+    .sup-md {
+        font-size: 1.3rem;
+    }
+
+    .txt-md {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 576px) {
+    .num-sm {
+        font-size: 2.5rem;
+    }
+
+    .sup-sm {
+        font-size: 1rem;
+    }
+
+    .txt-sm {
+        font-size: 0.8rem;
+    }
+}
+
+/*==========================*/
+/* TEAM */
+/*==========================*/
+.team-container {
+    padding: 5%;
+}
+
+.team-heading {
+    font-family: MabryPro;
+    font-size: 64px;
+    text-align: center;
+}
+
+hr.hr-team {
+    border: 4px solid #2DFB72
+}
+
+.team-role {
+    font-family: MabryPro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 150%;
+    color: #121212;
+}
+
+.team-member-head {
+    font-family: MabryPro;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: #121212;
+}
+
+.team-member-executive {
+    font-family: MabryPro;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: #121212;
+}
+
+/*==========================*/
+/* Ecell */
+/*==========================*/
+.texture-background {}
+
+#who-are-we-text-content {
+    margin-top: -90%;
+    padding: 0 5%;
+    align-items: center;
+    margin-left: 25%
+}
+
+#who-are-we-heading {
+    /* padding-top: 12vw; */
+    margin-left: -10%;
+}
+
+#blue-highlight-who-are-we {
+    background: #1858FC;
+    padding: 10px;
+    font-family: MabryPro;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 4rem;
+    line-height: 100%;
+}
+
+.who-are-we-heading-2 {
+    font-family: MabryPro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 83%;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 5vw;
+}
+
+.who-are-we-paragraph {
+    font-family: KareliaTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
 }

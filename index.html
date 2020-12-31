@@ -7,23 +7,196 @@
     <title>Udgam 2021</title>
 
     <!-- BOOTSTRAP -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <!-- AoS (Animate On Scroll Library) -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="./index.css">
-    <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
+    <!-- <link rel="stylesheet" href="./index.css"> -->
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+    <!--=====================================================================-->
+    <!-- NAVBAR -->
+    <!--=====================================================================-->
+    <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#"><img src="images/udgam_logo.svg"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div class="container-sm">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link navigation" href="#">SPONSORS <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navigation" href="#">EVENTS <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navigation" href="#">SPEAKERS <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navigation" href="#">ABOUT US <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navigation" href="#">CONTACT <span class="sr-only"></span></a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <!--=====================================================================-->
+    <!-- HEADER -->
+    <!--=====================================================================-->
+    <div class="header w-100">
+        <img src="images/header_background.svg" alt="" class="z-index-1 w-100" id="header-background">
+        <div class="row header-text align-middle">
+            <div class="col-5 main-header-text">
+                <h1 class="header-heading"><span id="header-heading-highlight">The Biggest Entrepreneurial Summit in the North-East</span></h1>
+                <p class="header-subscript">Don't miss out on the magic</p>
+                <a href="#" class="btn header-btn">Register Now</a>
+            </div>
+            <div class="col-2 date-header mt-50">
+                <h2 class="dates"><span class="dates-highlight">15-24</span></h2>
+                <h2 class="month"><span class="month-highlight">January</span></h2>
+            </div>
+        </div>
+
+    </div>
+
+    <!--=====================================================================-->
+    <!-- WHAT IS UDGAM -->
+    <!--=====================================================================-->
+    <div class="container-fluid">
+        <div class="row align-items-stretch speaker-row">
+            <div class="col-md-12 col-lg-6 udgam-intro-content">
+                <p class="first-thing">FIRST THINGS FIRST</p>
+                <h1 class="udgam-heading">What is Udgam?</h1>
+                <p class="udgam-intro">Udgam is the annual entrepreneurship summit
+                    of IIT Guwahati where people interested in entrepreneurship meet,
+                    discuss, explore, share, debate, and have fun with an aim to spread
+                    entrepreneurship across the
+                    country and ignite the flame within.</p>
+            </div>
+            <div class="col-md-12 col-lg-6 macbook align-items-center">
+                <a href="#"><img class="macbook-img" src="images/macbook_promo.svg"></a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="">
+        <!--=================================================================-->
+        <!-- PAST SPEAKERS -->
+        <!--=================================================================-->
+        <div class="row speaker-row">
+            <div class="col-md-6">
+                <div class="top">
+                    <img class="img-responsive" src="images/logo1.svg" alt="logo">
+                </div>
+            </div>
+            <div class="col-md-6" id="Heading1">
+                <h1 id="past-speaker-text"> Past<br> Speakers </h1>
+            </div>
+        </div>
+        <div class=" speaker-row row">
+            <div class="col-lg-3 col-12">
+                <div class="thumbnail">
+                    <a href="/w3images/lights.jpg" target="_blank">
+                        <img src="images/vaibhav_sisinty.svg" alt="Vaibhav Sisinty" style="width:100%">
+                        <div class="caption">
+                            <p id="name">Vaibhav<br> Sisisnty</p>
+                            <div class="post">
+                                <p>Marketing Head,<br>Klook India</p>
+                                <hr class="w-100 mx-auto pt-5" id="line">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-12">
+                <div class="thumbnail">
+                    <a href="/w3images/nature.jpg" target="_blank">
+                        <img src="images/sharad_sagar.svg" alt="Sharad Sagar" style="width:100%">
+                        <div class="caption">
+                            <p id="name">Sharad<br> Sagar</p>
+                            <div class="post">
+                                <p>Founder, Dexterity<br> Global</p>
+                                <hr class="w-100 mx-auto pt-5" id="line">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-12">
+                <div class="thumbnail">
+                    <a href="/w3images/fjords.jpg" target="_blank">
+                        <img src="images/ankur_warikoo.svg" alt="Ankur Warikoo" style="width:100%">
+                        <div class="caption">
+                            <p id="name">Ankur<br> Warikoo</p>
+                            <div class="post">
+                                <p>CEO,<br> GroupOn</p>
+                                <hr class="w-100 mx-auto pt-5" id="line">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-12">
+                <div class="thumbnail">
+                    <a href="/w3images/fjords.jpg" target="_blank">
+                        <img src="images/vivek_prakash.svg" alt="Vivek Prakash" style="width:100%">
+                        <div class="caption">
+                            <p id="name">Vivek<br> Prakash</p>
+                            <div class="post">
+                                <p>Marketing Head,<br>Klook India</p>
+                                <hr class="w-100 mx-auto pt-5" id="line">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!--=================================================================-->
+        <!-- UDGAM GOING VIRTUAL-->
+        <!--=================================================================-->
+        <div class="row speaker-row">
+            <div class="col-12 col-lg-4" id="virtual-text">
+                <img src="images/blue_background_virtual.png" id="blue_highlight" alt="">
+
+                <h1 class="headline" id="head">Udgam is <br>going Virtual <br>
+                    <span>this year!</span>
+                </h1>
+                <div id="content">
+                    <p>Udgam, every year, is hosted offline in our IIT-G campus. This year, however, we are riding with the wave of change and taking Udgam the virtual way.</p>
+                    <p>However, this does not mean any less. Udgam this year promises more speakers, more ideas, more discussion, more prizes and more knowledge.</p>
+                    <p>All from the comfort of your homes - We will be making sure you enjoy the event in its entirety.</p>
+
+                    <h3 id="underlined-content-virtual-udgam">The theme this year is “Building for Billions’</h3>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="jumbotron jumbotron-fluid" id="box">
+                    <div class="container">
+                        <h1></h1>
+                        <p></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--=====================================================================-->
+    <!-- LIST OF EVENTS -->
+    <!--=====================================================================-->
+    <div class="events-container">
         <div class="row justify-content-evenly gap-y p-1 mt-3">
             <div class="col-12 col-lg-4 d-flex align-items-stretch aos-init aos-animate" data-aos="zoom-in-up" data-aos-duration="150" data-aos-offset="200" data-aos-delay="00">
-                <div class="card" >
-                    <img src="disrupt.svg" class="card-img-top" alt="...">
+                <div class="card">
+                    <img src="images/disrupt.svg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Disrupt</h5>
                         <p class="card-text">The classic pitching battle is reinvented in this editin of Udgam. So, perfect your pitches and fight it out in fron of VCs and angel investors who are here to tearyou down and build you up.</p>
@@ -33,8 +206,8 @@
                 </div>
             </div>
             <div class="col-12 col-lg-4 d-flex align-items-stretch aos-init aos-animate" data-aos="zoom-in-up" data-aos-duration="150" data-aos-offset="200" data-aos-delay="100">
-                <div class="card" >
-                    <img src="disrupt.svg" class="card-img-top" alt="...">
+                <div class="card">
+                    <img src="images/disrupt.svg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Disrupt</h5>
                         <p class="card-text">The classic pitching battle is reinvented in this editin of Udgam. So, perfect your pitches and fight it out in fron of VCs and angel investors who are here to tearyou down and build you up.</p>
@@ -44,8 +217,8 @@
                 </div>
             </div>
             <div class="col-12 col-lg-4 d-flex align-items-stretch aos-init aos-animate" data-aos="zoom-in-up" data-aos-duration="150" data-aos-offset="200" data-aos-delay="200">
-                <div class="card" >
-                    <img src="disrupt.svg" class="card-img-top" alt="...">
+                <div class="card">
+                    <img src="images/disrupt.svg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Disrupt</h5>
                         <p class="card-text">The classic pitching battle is reinvented in this editin of Udgam. So, perfect your pitches and fight it out in fron of VCs and angel investors who are here to tearyou down and build you up.</p>
@@ -57,8 +230,8 @@
         </div>
         <div class="row justify-content-evenly gap-y p-1 mt-3">
             <div class="col-12 col-lg-4 d-flex align-items-stretch aos-init aos-animate" data-aos="zoom-in-up" data-aos-duration="150" data-aos-offset="200" data-aos-delay="00">
-                <div class="card" >
-                    <img src="disrupt.svg" class="card-img-top" alt="...">
+                <div class="card">
+                    <img src="images/disrupt.svg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Disrupt</h5>
                         <p class="card-text">The classic pitching battle is reinvented in this editin of Udgam. So, perfect your pitches and fight it out in fron of VCs and angel investors who are here to tearyou down and build you up.</p>
@@ -68,8 +241,8 @@
                 </div>
             </div>
             <div class="col-12 col-lg-4 d-flex align-items-stretch aos-init aos-animate" data-aos="zoom-in-up" data-aos-duration="150" data-aos-offset="200" data-aos-delay="100">
-                <div class="card" >
-                    <img src="disrupt.svg" class="card-img-top" alt="...">
+                <div class="card">
+                    <img src="images/disrupt.svg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Disrupt</h5>
                         <p class="card-text">The classic pitching battle is reinvented in this editin of Udgam. So, perfect your pitches and fight it out in fron of VCs and angel investors who are here to tearyou down and build you up.</p>
@@ -79,8 +252,8 @@
                 </div>
             </div>
             <div class="col-12 col-lg-4 d-flex align-items-stretch aos-init aos-animate" data-aos="zoom-in-up" data-aos-duration="150" data-aos-offset="200" data-aos-delay="200">
-                <div class="card" >
-                    <img src="disrupt.svg" class="card-img-top" alt="...">
+                <div class="card">
+                    <img src="images/disrupt.svg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Disrupt</h5>
                         <p class="card-text">The classic pitching battle is reinvented in this editin of Udgam. So, perfect your pitches and fight it out in fron of VCs and angel investors who are here to tearyou down and build you up.</p>
@@ -92,69 +265,260 @@
         </div>
     </div>
 
+
+    <!--=====================================================================-->
+    <!-- WHY UDGAM -->
+    <!--=====================================================================-->
+    <div class="why-udgam">
+        <div class="row">
+            <div class="col-12 col-lg-6 align-self-center">
+                <div class="container">
+                    <h1 class="why-udgam-heading">Why is Udgam is totally for you?</h1>
+                    <p class="why-udgam-para">
+                        Startup enthusiast? Product Guy? Student ticking off new year resolutions? Udgam 2021 gives you the most accessible way to listen and interact with CEOs and Co-founders of unicorn startups and corporate giants.
+                    </p>
+                    <p class="why-udgam-para">
+                        There’s more. Startup Founder looking for funding? No better playground to pitch your ideas directly to investors from the comfort of your homes.
+                    </p>
+                    <p class="why-udgam-para">
+                        If this doesn’t make sense, you can still take a workshop from professionals to start the year with a bang. What’s stopping you?
+                    </p>
+                </div>
+
+            </div>
+            <div class="col-12 col-lg-6 align-self-center">
+                <img src="images/you_are_invited.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div id="white-background">
+        <!--=================================================================-->
+        <!-- COUNTDOWN -->
+        <!--=================================================================-->
+        <div class="d-flex" style="position: relative;">
+            <img src="images/backg.svg" class="img-fluid w-100 img-countdown">
+
+            <div id="text">
+                <div class="row justify-content-center txt txt-sm txt-md ">
+                    Countdown to Udgam 2021
+                </div>
+
+                <div class="row" id="countdown">
+                    <div class="col-6 d-flex p-0">
+
+                        <div class="col d-flex px-1 px-md-3">
+                            <div class="col px-0">
+                                <span class="num num-md num-sm" id="days">18</span>
+                            </div>
+
+                            <div class="col px-0 pt-md-3 align-items-start">
+                                <span class="sup sup-sm sup-md">D</span>
+                            </div>
+                        </div>
+
+                        <div class="col d-flex px-1 px-md-3">
+                            <div class="col px-0">
+                                <span class="num num-md num-sm" id="hours">18</span>
+                            </div>
+
+                            <div class="col px-0 pt-md-3 align-items-start">
+                                <span class="sup sup-sm sup-md">H</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-6 d-flex p-0">
+
+                        <div class="col d-flex px-1 px-md-3">
+                            <div class="col px-0">
+                                <span class="num num-md num-sm" id="minutes">18</span>
+                            </div>
+
+                            <div class="col px-0 pt-md-3 align-items-start">
+                                <span class="sup sup-sm sup-md">M</span>
+                            </div>
+                        </div>
+
+                        <div class="col d-flex px-1 px-md-3">
+                            <div class="col px-0">
+                                <span class="num num-md num-sm" id="seconds">18</span>
+                            </div>
+
+                            <div class="col px-0 pt-md-3 align-items-start">
+                                <span class="sup sup-sm sup-md">S</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--=================================================================-->
+        <!-- OUR TEAM -->
+        <!--=================================================================-->
+
+        <div class="team-container">
+            <h2 class="team-heading">THE TEAM</h2>
+            <hr class="hr-team">
+            <div class="row">
+                <div class="col-12 col-lg-4 team-role">
+                    Heads
+                </div>
+                <div class="col-12 col-lg-4 team-member-head">
+                    ADITYA CHAUHAN <br>
+                    AKSHAT GUPTA <br>
+                    AMULYA DUBEY <br>
+                    ANIKET VINCHURKAR <br>
+                    ANISH GUPTA <br>
+                    BHABANI MOHAPATRA <br>
+                    PRIYANSHU GUPTA <br>
+                    PULKIT CHANGOIWALA <br>
+                    SMITA SAXENA <br>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <table>
+                        <tr>
+                            <td> <img src="images/heads.svg" alt=""> </td>
+                            <td> <img src="images/heads.svg" alt=""> </td>
+                            <td> <img src="images/heads.svg" alt=""> </td>
+                        </tr>
+                        <tr>
+                            <td> <img src="images/heads.svg" alt=""> </td>
+                            <td> <img src="images/heads.svg" alt=""> </td>
+                            <td> <img src="images/heads.svg" alt=""> </td>
+                        </tr>
+                        <tr>
+                            <td> <img src="images/heads.svg" alt=""> </td>
+                            <td> <img src="images/heads.svg" alt=""> </td>
+                            <td> <img src="images/heads.svg" alt=""> </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="row mt-25">
+                <div class="col-12 col-lg-4 team-role">
+                    More Than Heads
+                </div>
+                <div class="col-12 col-lg-4 team-member-executive">
+                    Aditya Chauhan <br>
+                    Akshat Gupta <br>
+                    Amulya Dubey <br>
+                    Aniket Vinchurkar <br>
+                    Anish Gupta <br>
+                    Bhabani Mohapatra <br>
+                    Priyanshu Gupta <br>
+                    Pulkit Changoiwala <br>
+                    Smita Saxena <br>
+                    Aditya Chauhan <br>
+                    Akshat Gupta <br>
+                    Amulya Dubey <br>
+                    Aniket Vinchurkar <br>
+                    Anish Gupta <br>
+                    Bhabani Mohapatra <br>
+                    Priyanshu Gupta <br>
+                    Pulkit Changoiwala <br>
+                    Smita Saxena <br>
+                </div>
+                <div class="col-12 col-lg-4 team-member-executive">
+                    Aditya Chauhan <br>
+                    Akshat Gupta <br>
+                    Amulya Dubey <br>
+                    Aniket Vinchurkar <br>
+                    Anish Gupta <br>
+                    Bhabani Mohapatra <br>
+                    Priyanshu Gupta <br>
+                    Pulkit Changoiwala <br>
+                    Smita Saxena <br>Aditya Chauhan <br>
+                    Akshat Gupta <br>
+                    Amulya Dubey <br>
+                    Aniket Vinchurkar <br>
+                    Anish Gupta <br>
+                    Bhabani Mohapatra <br>
+                    Priyanshu Gupta <br>
+                    Pulkit Changoiwala <br>
+                    Smita Saxena <br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--=====================================================================-->
+    <!-- WHY UDGAM -->
+    <!--=====================================================================-->
+    <div class="ecell-works">
+        <div class="row">
+            <div class="col-lg-6 col-12">
+                <img src="images/Ecell_background.svg"  class = " texture-background w-100" alt="">
+                <div id="who-are-we-text-content">
+                    <h1 id="who-are-we-heading w-50"><span id="blue-highlight-who-are-we">Who are we?</span></h1>
+                    <h2 class="who-are-we-heading-2 w-50">Misfits</h2>
+                    <p class="who-are-we-paragraph w-50">We are a group of misfits - crazy people/square pegs in round holes who are not fond of rules and love to challenge the status quo and tinker with ideas. </p>
+                    <h2 class="who-are-we-heading-2 w-50">Northeast's biggest E-cell</h2>
+                    <p class="who-are-we-paragraph w-50">In our free time we run Northeast's biggest E-Cell with the aim of exposing students to the world of entrepreneurship.</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-12">
+
+            </div>
+        </div>
+    </div>
+
     <script type="text/javascript" src="event_list.js">
 
     </script>
     <!-- BOOTSTRAP JS -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <!-- AoS JS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init()
+        $(function() {
+            $(document).scroll(function() {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+                $nav.toggleClass("fixed-top", $(this).scrollTop() > $nav.height());
+            });
+        });
+
+        var countDownDate = new Date("Jan 15, 2021 12:00:00").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+
+            // Get today's date and time
+            var now = new Date().getTime();
+
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Display the result in the element with id=""
+            document.getElementById("days").innerHTML = days;
+            document.getElementById("hours").innerHTML = hours;
+            document.getElementById("minutes").innerHTML = minutes;
+            document.getElementById("seconds").innerHTML = seconds;
+
+            // If the count down is finished, write some text
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("days").innerHTML = "00";
+                document.getElementById("hours").innerHTML = "00";
+                document.getElementById("minutes").innerHTML = "00";
+                document.getElementById("seconds").innerHTML = "00";
+            }
+        }, 1000);
     </script>
 
-    <div class="container-fluid" id="container-fluid-1">
-        <div class="row">
-            <div class="col-5 "><img id="bulb" src="bulb.svg"/></div>
-            <div class="col-7 "><img id="logo" src="logo.svg"/></div>
-        </div>
-        <div class="row">
-            <div id="big_div" class="col-4">
-                <div id="rectangle_container">
-                    <img id="rect1" src="rect1.svg"/><br>
-                    <img id="rect2" src="rect2.svg"/><br>
-                    <img id="rect3" src="rect3.svg"/><br>
-                    <img id="rect4" src="rect4.svg"/>
-                </div>
-                <div id="big_text_container">
-                    <img id="big_text" src="big_text.svg"/>
-                </div>
-                <div style="padding-top:60%;">
-                    Don't miss out on the magic
-                </div>
-                <input/><button>GET NOTIFIED</button>
+</body>
 
-
-            </div>
-            <div class="col-4">
-                <img id="dates" src="dates.svg" style="margin:auto; display:block; margin-top:10%"/>
-            </div>
-            <div class="col-4">
-
-            </div>
-            <div class="col-4">
-
-            </div>
-        </div>
-        </div>
-<div class="container-fluid" id="container-fluid-2">
-        <div style="background-color:#121212" class="row black-as-back">
-            <div class="col-6" style="padding-top:8%">
-                <p>FIRST THINGS FIRST</p>
-                <h1>What is Udgam?</h1>
-                <p>Udgam is the annual entrepreneurship entrepreneurship entrepreneurship entrepreneurship entrepreneurship entrepreneurship entrepreneurship entrepreneurship
-                    entrepreneurship entrepreneurship entrepreneurship entrepreneurship entrepreneurship entrepreneurship entrepreneurship entrepreneurship entrepreneurship entrepreneurship
-                    entrepreneurship entrepreneurship entrepreneurship entrepreneurship entrepreneurship entrepreneurship entrepreneurship entrepreneurship </p>
-            </div>
-            <div class="col-6" style="padding-top:8%">
-                <img style="margin:auto; display:block" src="mac.svg">
-            </div>
-        </div>
-</div>
-
-
-
-    </body>
 </html>
-
