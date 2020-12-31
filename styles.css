@@ -199,6 +199,8 @@ body {
     font-size: 64px;
     line-height: 64px;
     color: #FFFFFF;
+    z-index: 0;
+    margin-top: -40%;
 }
 
 #heading1 {
@@ -224,6 +226,7 @@ body {
     color: rgba(255, 255, 255, 0.87);
     font-size: 20px;
     line-height: 28px;
+    martgin-top: 10%;
 }
 
 #underlined-content-virtual-udgam {
@@ -240,6 +243,11 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size:
+}
+
+#blue_highlight {
+    /* margin-top: -10%; */
+    z-index: -1;
 }
 
 /*==========================*/
@@ -275,6 +283,8 @@ body {
     width: 100vw;
     height: auto;
     padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .why-udgam-heading {
@@ -410,7 +420,6 @@ hr.hr-team {
     font-size: 32px;
     line-height: 150%;
     color: #121212;
-
 }
 
 .team-member-executive {
@@ -420,4 +429,52 @@ hr.hr-team {
     font-size: 32px;
     line-height: 150%;
     color: #121212;
+}
+
+/*==========================*/
+/* Ecell */
+/*==========================*/
+.texture-background {}
+
+#who-are-we-text-content {
+    margin-top: -90%;
+    padding: 0 5%;
+    align-items: center;
+    margin-left: 25%
+}
+
+#who-are-we-heading {
+    /* padding-top: 12vw; */
+    margin-left: -10%;
+}
+
+#blue-highlight-who-are-we {
+    background: #1858FC;
+    padding: 10px;
+    font-family: MabryPro;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 4rem;
+    line-height: 100%;
+}
+
+.who-are-we-heading-2 {
+    font-family: MabryPro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 83%;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 5vw;
+}
+
+.who-are-we-paragraph {
+    font-family: KareliaTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
 }
