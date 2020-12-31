@@ -8,10 +8,17 @@
     src: url("fonts/Mabry Pro Black.ttf")
 }
 
-body {
-    background-color: #212121;
+@font-face {
+    font-family: Ramona;
+    src: url("fonts/Ramona-Bold.ttf")
 }
 
+
+
+body {
+    background-color: #212121;
+    overflow-x: hidden;
+}
 /*==========================*/
 /* NAVBAR */
 /*==========================*/
@@ -37,9 +44,9 @@ body {
     position: absolute;
     top: 20%;
     left: 10%;
+    margin-right: 0px !important;
 }
 
-.main-header-text {}
 
 .header-heading {
     font-family: MabryPro;
@@ -148,27 +155,32 @@ body {
 /*==========================*/
 /* LISTS OF EVENTS */
 /*==========================*/
+.speaker-heading{
+    padding: 0% 5%;
+}
 .speaker-row {
     padding: 5%;
 }
 
 .post {
+    color: #2DF771;
     font-family: Ramona;
     font-style: normal;
-    font-weight: bold;
     font-size: 16px;
     line-height: 120%;
+    /* or 19px */
+
     letter-spacing: 0.04em;
-    color: #2DF771;
 }
 
-#name {
+.name {
     font-family: KareliaTrial;
     font-style: normal;
-    font-weight: bold;
-    font-size: 180%;
     line-height: 42px;
     color: #FFFFFF;
+    font-weight: bold;
+    font-size: 2.2rem;
+    line-height: 42px;
 }
 
 #line {
@@ -178,6 +190,35 @@ body {
 .top {
     padding-left: 3%;
 }
+
+/*==========================*/
+/* SPEAKER LIST */
+/*==========================*/
+
+.speaker-row {
+    display: flex;
+    margin-top: 50px;
+  }
+  
+.thumbnail {
+    position: relative;
+    display: block;
+    flex: 1 1 0px;
+    transition: transform 500ms;
+}
+  
+.speaker-row .thumbnail:focus,
+.speaker-row .thumbnail:hover {
+    transform: scale(1.2);
+    z-index: 1;
+}
+ 
+  
+.speaker-row img {
+    display: block;
+    max-width: 100%;
+}
+
 
 /*==========================*/
 /* VIRTUAL UDGAM */
@@ -217,6 +258,7 @@ body {
     font-weight: bold;
     line-height: 100%;
     color: white;
+    font-size: 4rem;
 }
 
 #content {
@@ -226,12 +268,12 @@ body {
     color: rgba(255, 255, 255, 0.87);
     font-size: 20px;
     line-height: 28px;
-    martgin-top: 10%;
+    margin-top: 10%;
 }
 
 #underlined-content-virtual-udgam {
     font-family: KareliaTrial;
-    font-size: 3rem;
+    font-size: 3.2rem;
     font-weight: bold;
     text-decoration: underline;
     line-height: 120%;
@@ -412,6 +454,31 @@ hr.hr-team {
     line-height: 150%;
     color: #121212;
 }
+
+.heads-container{
+    display: flex;
+    margin-top: 50px;
+  }
+  
+.item {
+    position: relative;
+    display: block;
+    flex: 1 1 0px;
+    transition: transform 500ms;
+}
+  
+.heads-container .item:focus,
+.heads-container .item:hover {
+    transform: scale(1.2);
+    z-index: 1;
+}
+ 
+  
+.heads-container img {
+    display: block;
+    max-width: 100%;
+}
+
 
 .team-member-head {
     font-family: MabryPro;
